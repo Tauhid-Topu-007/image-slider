@@ -19,13 +19,14 @@ img:hover{
     /* scale: 1.2; */
 }
 body{
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: #333;
     /* overflow: hidden; */
     /* margin-top: 100px; */
@@ -78,6 +79,7 @@ button:hover{
         margin-left: 0px;
         margin: 2px;
     }
+
 }
 
 @media (max-width:760px){
