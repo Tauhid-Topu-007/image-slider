@@ -1,0 +1,103 @@
+.img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    /* overflow: hidden; */
+}
+img{
+    height: 100%;
+    width: 100%;
+    /* transition: 1s; */
+}
+
+img:hover{
+    border: 1px solid transparent;
+    /* scale: 1.2; */
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #333;
+    /* overflow: hidden; */
+    /* margin-top: 100px; */
+    /* height: 100vh; */
+}
+button{
+    padding: 10px;
+    /* width: 60%; */
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: #666;
+
+}
+
+button:hover{
+    cursor: pointer;
+    color: #ef3636;
+    box-shadow: 0 0 10px;
+    background-color: transparent;
+}
+
+.btn{
+    display: flex;
+    /* margin-left: 10px; */
+}
+.ttt{
+    margin-left: 10px;
+    width: 110px;
+}
+
+@media (max-width:600px){
+    .img{
+        height: 150px;
+        width: 150px;
+    }
+    button{
+        font-size: 10px;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    .ttt{
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-left: 0px;
+        margin: 2px;
+    }
+}
+
+@media (max-width:760px){
+    .img{
+        height: 200px;
+        width: 200px;
+    }
+    button{
+        font-size: 17px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .ttt{
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-left: 0px;
+        margin: 4px;
+    }
+}
+
